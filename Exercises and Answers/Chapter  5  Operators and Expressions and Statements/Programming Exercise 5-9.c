@@ -47,7 +47,7 @@ void Temperatures(double Fahrenheit)
 {
 	const double Celsius = 5.0 / 9.0 * (Fahrenheit - 32.0);
 	const double Kelvin = Celsius + 273.16;
-	printf("The Fahrenheit temperature is %.2lf.\n", Fahrenheit);
-	printf("The Celsius temperature is %.2lf.\n", Celsius);
-	printf("The Kelvin temperature is %.2lf.\n", Kelvin);
+	printf("The Fahrenheit temperature is %.2f.\n", Fahrenheit);
+	printf("The Celsius temperature is %.2f.\n", Celsius);
+	printf("The Kelvin temperature is %.2f.\n", Kelvin);
 }
