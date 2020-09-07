@@ -12,7 +12,7 @@ int main(void)
 	char lowercase[SIZE];
 	int i;
 	
-	for (i = 0; i <= SIZE; i++)
+	for (i = 0; i < SIZE; i++)
 		lowercase[i] = 'a' + i;
 	
 	printf("The array contents:\n");
